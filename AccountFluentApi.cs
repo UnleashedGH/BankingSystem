@@ -11,19 +11,12 @@ namespace BankingSystem
     //Fluent Api
     public static class AccountFluentApiExtentions
     {
-
-
-
         public static void ThenDepositBy(this Account account, decimal amount) =>
             account.Deposit(amount);       
         
         
         public static void ThenWithdrawBy(this Account account, decimal amount) =>
             account.Withdraw(amount);
-        
-
-      
-       
      
     }
 }
